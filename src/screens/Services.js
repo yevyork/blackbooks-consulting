@@ -28,22 +28,20 @@ class Services extends React.Component {
   render() {
     let showClass= this.state.descriptionVisible ? "service-description" : "no-display"
     const all_services = this.state.allServices
-    console.log(all_services)
+    
     const services = all_services.map((service, i) => {
+        // console.log(service, i)
     return (
-        <div className="services-main-container">
-                
-            <div className="service">
-                <button className="services-btn" onClick={(i)=>this.showService(i)}>{service.buttonId}</button>
+            <div className={`service${i}`} key={i}> 
+                <button className="services-btn" onClick={()=>this.showService()}>{service.buttonId}</button>
                 <p className={showClass}>{service.content}</p>
             </div>
-        </div>
     )})
     
     return(
-        <>
+        <div className="services-main-container">
         <h3>Services</h3>
         {services}
-        </>
+        </div>
     )}}
 export default Services;
