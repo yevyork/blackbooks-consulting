@@ -1,49 +1,37 @@
 import React from "react";
+import Service from '../shared/Service'
 import "./styles/Services.css";
 import services from '../assets/seed'
 
 class Services extends React.Component {
-  constructor(props) {
+    constructor(props) {
     super(props);
     this.state = {
         descriptionVisible: false,
         allServices:[]
     };
-  }
-  
-  componentDidMount() {
-    try {
-      const response = services;
-      this.setState({ allServices: response });
-      
-    } catch (err) {
-      console.error(err);
+}
+
+    componentDidMount() {
+        try {
+            const response = services;
+            this.setState({ allServices: response });
+        } catch (err) {
+            console.error(err);
+        }
     }
-  }
-    showService(i) {
-        this.setState({
-            descriptionVisible: !this.state.descriptionVisible
-        })
-    }
-  render() {
-    let showClass= this.state.descriptionVisible ? "service-description" : "no-display"
-    const all_services = this.state.allServices
-    console.log(all_services)
-    const services = all_services.map((service, i) => {
-    return (
-        <div className="services-main-container">
-                
-            <div className="service">
-                <button className="services-btn" onClick={(i)=>this.showService(i)}>{service.buttonId}</button>
-                <p className={showClass}>{service.content}</p>
-            </div>
-        </div>
-    )})
     
-    return(
-        <>
-        <h3>Services</h3>
-        {services}
-        </>
-    )}}
+    render() {
+        const renderServices = this.state.allServices.map((service, i) => {
+        return (
+            <Service key={i} obj={service}/>
+        )})
+    
+        return(
+            <div className="services-main-container">
+            <h3>Services</h3>
+            {renderServices}
+            </div>
+        )};
+    }
 export default Services;

@@ -36,9 +36,9 @@ class Nav extends React.Component {
                 sidebar={
                     <div className='nav-main-container'>
                         
-                        <NavLink to='/services' className='nav' activeClassName='activenav'><button className='nav' onClick={() => this.closeSidebar()}>Services</button></NavLink>
-                        <NavLink to='/contact' className='nav' activeClassName='activenav'><button className='nav'onClick={()=> this.closeSidebar()}>Contact</button></NavLink>
-                        <NavLink to='/community' className='nav' activeClassName='activenav'><button className='nav'onClick={()=> this.closeSidebar()}>Community</button></NavLink>
+                        <NavLink to='/services' className='nav' activeClassName='activenav' onClick={() => this.closeSidebar()}>Services</NavLink>
+                        <NavLink to='/contact' className='nav' activeClassName='activenav'onClick={()=> this.closeSidebar()}>Contact</NavLink>
+                        <NavLink to='/community' className='nav' activeClassName='activenav'onClick={()=> this.closeSidebar()}>Community</NavLink>
                     
                         <div className='close-nav'>
                             <br></br>
