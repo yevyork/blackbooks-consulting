@@ -16,11 +16,19 @@ h3 {
 
 }
 
+.service-description0, .service-description1, .service-description2, .service-description3, .service-description4, .service-description5, .service-description6, .service-description7, .service-description8 {
+    color: rgba(232, 208, 117, 1);
+}
+
+.no-display0, .no-display1, .no-display2, .no-display3, .no-display4, .no-display5, .no-display6, .no-display7, .no-display8 {
+    display: none;
+
+}
+
 .service-description {
     color: rgba(232, 208, 117, 1);
 
 }
-
 .no-display {
     display: none;
 
