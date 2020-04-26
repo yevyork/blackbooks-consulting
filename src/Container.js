@@ -9,7 +9,9 @@ function Container() {
         <div className='main'>
             <Header />
             <Routes />
+            <hr/>
             <Footer />
+            <hr/>
         </div>
     )
 }

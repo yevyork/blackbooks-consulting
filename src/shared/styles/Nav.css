@@ -17,11 +17,11 @@
 }
 
 .btn {
-    border: none;
-    background-color: transparent;
+    border: none;    background-color: transparent;
     width: 30%;
     margin-top: 5%;
-    margin-right: 70%;
+    margin-left: 70%;
+
 }
 
 .menu {
