@@ -21,12 +21,6 @@ class Services extends React.Component {
         }
     }
     
-    showService = service => {
-        this.setState({
-            descriptionVisible: !this.state.descriptionVisible
-        })
-    }
-    
     render() {
         const renderServices = this.state.allServices.map((service, i) => {
         return (

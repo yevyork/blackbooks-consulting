@@ -30,7 +30,7 @@ class Service extends React.Component {
         ) : null
     return(
         <React.Fragment>
-        <button className={`services-btn`} onClick={()=>this.handleServiceInfo()}>{this.props.obj.buttonId}</button>
+        <button className="services-btn" onClick={()=>this.handleServiceInfo()}>{this.props.obj.buttonId}</button>
         {serviceModal}
         </React.Fragment>
         
