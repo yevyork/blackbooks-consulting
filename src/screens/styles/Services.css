@@ -1,22 +1,22 @@
 h3 {
-    color: rgba(232, 208, 117, 1);
+    color: rgba(180, 164, 95, 1);
     font-size: 30px;
 }
 
 .services-btn {
     display: block;
-    color: rgba(232, 208, 117, 1);
+    color: rgba(180, 164, 95, 1);
     margin: 10% auto;
     font-size: 18px;
     border: 1px solid white;
     background-color: transparent;
     padding: 5%;
     filter: drop-shadow(2px 2px 5px);
-    box-shadow: 2px 1px 2px rgba(232, 208, 117, 1);
+    color: rgba(180, 164, 95, 1);
 }
 
 .service-description {
-    color: rgba(232, 208, 117, 1);
+    color: rgba(180, 164, 95, 1);
 
 }
 .no-display {

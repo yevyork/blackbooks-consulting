@@ -8,8 +8,10 @@ function Header() {
     return(
     <div className='header-main-container'>
         <div className='left-header'>
+        
+        <NavLink className='home-link' to='/'>
         <img src={bblogo} className='mainlogo'alt='bb'/>
-        <NavLink className='home-link' to='/'>BlackBooks Consulting</NavLink>
+        </NavLink>
         </div>
         <Nav />
 
