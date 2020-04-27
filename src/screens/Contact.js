@@ -47,7 +47,7 @@ class Contact extends React.Component {
                 
             <label/>
             <input
-            type='text'
+                type='text'
                 placeholder="Full Name"
                 value={name}
                 name="name"

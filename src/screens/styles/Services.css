@@ -17,8 +17,28 @@ h3 {
 
 .service-description {
     color: rgba(180, 164, 95, 1);
-
+    margin: auto 3%;
 }
 .no-display {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .services-btn {
+        padding: 2%;
+        margin: 3% auto;
+        border-radius: 2%;
+        outline: none;
+    }
+
+    .services-btn:hover {
+        border: 1px solid rgba(180, 164, 95, 1);
+        filter: drop-shadow(3px 3px 6px);
+        background-color: rgba(255, 255, 255, 0.089);
+    }
+
+    .service-description {
+        color: rgba(180, 164, 95, 1);
+        margin: auto 15%;
+    }
 }

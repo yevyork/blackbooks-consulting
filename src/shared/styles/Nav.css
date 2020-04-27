@@ -35,11 +35,18 @@
     height: 40%;
     font-size: 20px;
     padding: 5%;
-    z-index: 20;
+    z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
-    .menu {
-        width: 10%;
+    .menu, .nav-main-container {
+        display: none;
+    }
+
+    .nav {
+        width: max-content;
+        padding: 0 0;
+        margin: auto;
+        z-index: 20;
     }
 }

@@ -18,7 +18,7 @@ class Service extends React.Component {
     };
 
     render() { 
-        const serviceModal = this.state.showDescription ? (
+        const serviceInfo = this.state.showDescription ? (
             
             <ServiceInfo
             data={this.props.obj}
@@ -29,7 +29,7 @@ class Service extends React.Component {
     return(
         <React.Fragment>
         <button className="services-btn" onClick={()=>this.handleServiceInfo()}>{this.state.showDescription ? <strong>Close</strong> : this.props.obj.buttonId}</button>
-        {serviceModal}
+        {serviceInfo}
         </React.Fragment>
         
     )

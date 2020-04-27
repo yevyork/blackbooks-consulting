@@ -15,6 +15,7 @@ input {
     padding: 5% 15%;
     text-align: left;
     font-size: 15px;
+    border-radius: 0;
 }
 
 label {
@@ -23,6 +24,19 @@ label {
 
 .submit {
     background-color:rgba(180, 164, 95, 1);
-    padding: 4%;
+    padding: 4% 10%;
     font-size: 15px;
+    margin-bottom: 10%;
+}
+
+@media screen and (min-width: 768px) {
+    input {
+        margin: 1% auto;
+        text-align: center;
+    }
+
+    .submit {
+        padding: 2% 8%;
+        margin: 5% auto;
+    }
 }

@@ -3,6 +3,9 @@
 
 }
 
+.home-nav {
+    display: none;
+}
 .about {
     font-size: 15px;
     line-height: 25px;
@@ -13,4 +16,10 @@
     .about {
         font-size: 20px;
     }
+
+    .home-nav {
+        display: flex;
+        z-index: 5;
+    }
 }
+
