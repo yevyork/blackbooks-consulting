@@ -29,9 +29,11 @@ class Nav extends React.Component {
             <Sidebar
                 open={this.state.sidebarOpen}
                 onSetOpen={this.onsetSidebarOpen}
-                styles={ {sidebar: {background: "rgba(0, 0, 0, 0.5)",
+                pullRight= {true}
+                styles={ {sidebar: {background: "rgba(0, 0, 0, 0.9)",
                                     width:'50%',
                                     position: 'absolute'
+                                    
                                 }}}
                 sidebar={
                     <div className='nav-main-container'>
@@ -41,8 +43,8 @@ class Nav extends React.Component {
                         <NavLink to='/community' className='nav' activeClassName='activenav'onClick={()=> this.closeSidebar()}>Community</NavLink>
                     
                         <div className='close-nav'>
-                            <br></br>
-                            <br></br>
+                        <br/>
+                        <br/>
                             <button className='close-menu' onClick={() => this.closeSidebar()}>Close</button>
                         </div>
                     </div>

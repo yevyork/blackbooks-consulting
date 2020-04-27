@@ -6,5 +6,15 @@
 
 p {
     color: rgba(180, 164, 95, 1);
+    font-family: "Rosario", sans-serif;
+}
+
+hr {
+    border-color: rgba(180, 164, 95, 1);
+
+}
+
+button, input, label {
+    font-family: "Rosario", sans-serif;
 
 }
