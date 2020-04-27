@@ -1,0 +1,28 @@
+.contact-form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+label {
+    color: rgba(180, 164, 95, 1);
+}
+input {
+    display: block;
+    margin: 20% auto;
+    border: none;
+    border-bottom: 1px solid rgba(180, 164, 95, 1);
+    background-color: transparent;
+    padding: 5% 15%;
+    text-align: left;
+    font-size: 15px;
+}
+
+label {
+    color: rgba(180, 164, 95, 1);
+}
+
+.submit {
+    background-color:rgba(180, 164, 95, 1);
+    padding: 4%;
+    font-size: 15px;
+}

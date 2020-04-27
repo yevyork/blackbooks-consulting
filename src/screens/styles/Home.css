@@ -4,8 +4,13 @@
 }
 
 .about {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 25px;
     margin: 10% 8%;
 }
 
+@media screen and (min-width: 768px) {
+    .about {
+        font-size: 20px;
+    }
+}

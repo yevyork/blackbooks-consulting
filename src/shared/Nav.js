@@ -43,8 +43,8 @@ class Nav extends React.Component {
                         <NavLink to='/community' className='nav' activeClassName='activenav'onClick={()=> this.closeSidebar()}>Community</NavLink>
                     
                         <div className='close-nav'>
-                            <br></br>
-                            <br></br>
+                        <br/>
+                        <br/>
                             <button className='close-menu' onClick={() => this.closeSidebar()}>Close</button>
                         </div>
                     </div>

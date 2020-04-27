@@ -37,3 +37,9 @@
     padding: 5%;
     z-index: 20;
 }
+
+@media screen and (min-width: 768px) {
+    .menu {
+        width: 10%;
+    }
+}
