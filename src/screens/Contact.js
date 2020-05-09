@@ -28,7 +28,7 @@ class Contact extends React.Component {
         })
             .catch(error=> console.log(error));
             window.location='/'
-            alert("THank you for your message. We'll be in touch shortly.")
+            alert("Thank you for your message. We'll be in touch shortly.")
             e.preventDefault();
     }
     
@@ -41,6 +41,7 @@ class Contact extends React.Component {
             <form 
             name='contact'
             className='actual-form'
+            onChange={this.handleChange}
             onSubmit={this.handleSubmit}
             data-netlify="true" 
             data-netlify-honeypot="bot-field" >

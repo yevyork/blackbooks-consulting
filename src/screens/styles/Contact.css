@@ -9,13 +9,14 @@ label {
 input {
     display: block;
     margin: 20% auto;
-    border: none;
-    border-bottom: 1px solid rgba(180, 164, 95, 1);
+    border: 1px solid rgba(180, 164, 95, 1);
     background-color: transparent;
-    padding: 5% 15%;
+    padding: 5% 5%;
     text-align: left;
     font-size: 15px;
     border-radius: 0;
+    width: 70%;
+    height: 200%;
 }
 
 label {
@@ -31,8 +32,11 @@ label {
 
 @media screen and (min-width: 768px) {
     input {
-        margin: 1% auto;
-        text-align: center;
+        padding: 2%;
+        width: 50%;
+        height: 50%;
+        margin: 5% auto;
+        text-align: left;
     }
 
     .submit {
