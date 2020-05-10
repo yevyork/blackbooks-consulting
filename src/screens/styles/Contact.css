@@ -12,16 +12,18 @@ input {
     margin: 20% auto;
     border: 1px solid rgba(180, 164, 95, 1);
     background-color: rgba(180, 164, 95, 0.171);
-    
+    color: rgba(180, 164, 95, 1);
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 0;
     width: 70%;
     height: 40px;
+    padding-left: 2%;
 }
 
-label {
-    color: rgba(180, 164, 95, 1);
+::placeholder {
+    color: rgba(180, 164, 95, 0.74);
+    margin-left: 20px;
 }
 
 .submit {
