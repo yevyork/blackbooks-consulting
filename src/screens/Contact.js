@@ -37,7 +37,7 @@ class Contact extends React.Component {
         return ( 
             <div className='contact-form'>
                 <p>Interested in our services? <br/><br/>
-                Fill out the fields below and look out for an e-mail.</p>
+                Fill this out and we'll get in touch.</p>
             <form 
             name='contact'
             className='actual-form'
@@ -80,8 +80,8 @@ class Contact extends React.Component {
             
 
             <label/>
-                <input
-                placeholder=" Where is your business located?"
+                <textarea
+                placeholder="Tell us about your business (e.g. Nature, location, etc.)"
                 type='text'
                 value={address}
                 name="address"
