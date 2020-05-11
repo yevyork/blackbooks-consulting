@@ -6,6 +6,7 @@
 label {
     color: rgba(180, 164, 95, 1);
     width: max-content;
+    position: unset;
 }
 input, textarea {
     display: block;
@@ -27,6 +28,10 @@ input, textarea {
     color: rgba(180, 164, 95, 0.74);
     margin-left: 20px;
 }
+
+::placeholder:focus {
+    color: red;
+    }
 
 .submit {
     background-color:rgba(180, 164, 95, 1);

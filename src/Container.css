@@ -2,6 +2,7 @@
     background-color: rgba(0, 0, 0, 0.918);
     margin: 0;
     overflow-y: hidden;
+    outline: none;
 }
 
 p {
