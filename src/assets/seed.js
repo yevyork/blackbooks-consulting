@@ -7,7 +7,7 @@ const services = [
     {
         buttonId: "Staff Training",
         content:"Staff training is the key to staff retention. Allow your team to achieve its full potential with detailed and regimented new hire protocols, structured staff meetings, and ongoing review and education.",
-        bulletPoints:"Consulting with Service Management Team to establish concrete Steps of Service rubric@, Establishing objective review system for all employees@, Creating structured preshifts calendars@, and various staff education trainings@, Developing staff training manuals for each position"
+        bulletPoints:"Consulting with Service Management Team to establish concrete Steps of Service rubric@, Establishing objective review system for all employees@, Creating structured preshifts calendars, and various staff education trainings@, Developing staff training manuals for each position"
     },
     {
         buttonId: "Remote Bookkeeping & Outsourced Payroll",

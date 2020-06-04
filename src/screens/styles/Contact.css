@@ -5,7 +5,6 @@
 
 label {
     color: rgba(180, 164, 95, 1);
-    width: max-content;
     position: unset;
 }
 input, textarea {
@@ -22,16 +21,13 @@ input, textarea {
     padding: 4%;
     padding-left: 2%;
     resize: none;
+    z-index: 1000;
 }
 
 ::placeholder {
     color: rgba(180, 164, 95, 0.74);
     margin-left: 20px;
 }
-
-::placeholder:focus {
-    color: red;
-    }
 
 .submit {
     background-color:rgba(180, 164, 95, 1);
